@@ -1,2 +1,38 @@
-site_name: My Docs
-theme: readthedocs
+site_name: HPE OpenStack Drivers
+theme:
+  name: readthedocs
+  features:
+    - navigation.expand
+    - navigation.sections
+    - toc.integrate
+    - search.highlight
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - Cinder Driver:
+      - Alletra MP / Primera / 3PAR:
+          - Overview: alletra-primera-3par/overview.md
+          - System Requirements: alletra-primera-3par/system-requirements.md
+          - Supported Operations: alletra-primera-3par/supported-operations.md
+          - Installation & Enabling: alletra-primera-3par/installation-enabling.md
+          - FC / iSCSI Configuration: alletra-primera-3par/fc-iscsi-configuration.md
+          - Extra Specs & QoS: alletra-primera-3par/extra-specs-qos.md
+          - Advanced Features:
+              - NSP for FC Bootable Volumes: alletra-primera-3par/advanced-features/nsp-fc-bootable.md
+              - Peer Persistence: alletra-primera-3par/advanced-features/peer-persistence.md
+              - Duplicate FQDN Support: alletra-primera-3par/advanced-features/duplicate-fqdn.md
+          - RHOSP Deployment Guides:
+              - RHOSP 18: alletra-primera-3par/rhosp-deployment-guides/rhosp18.md
+              - RHOSP 17: alletra-primera-3par/rhosp-deployment-guides/rhosp17.md
+          - Supportability:
+              - Overview: alletra-primera-3par/supportability/overview.md
+      - Nimble / Alletra 6k:
+          - Overview: nimble-alletra6k/overview.md
+          - Supported Operations: nimble-alletra6k/supported-operations.md
+          - Configuration: nimble-alletra6k/configuration.md
+          - Extra Spec Options: nimble-alletra6k/extra-spec-options.md
+          - Configuration Options: nimble-alletra6k/configuration-options.md
+          - Multipathing: nimble-alletra6k/multipathing.md
+          - Consistency Group Replication: nimble-alletra6k/consistency-group-replication.md
+      - Best Practices Guide: best-practices-guide.md

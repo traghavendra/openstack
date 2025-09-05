@@ -1,22 +1,11 @@
-# OpenStack
+# HPE OpenStack Cinder Drivers
 
-## Overview
+Welcome to the documentation for **HPE OpenStack Block Storage (Cinder) drivers**.
 
-HPE has developed the HPE Block Storage Drivers, which support the OpenStack technology across both iSCSI and Fibre Channel (FC) protocols
+This site covers:
+- **Alletra MP / Primera / 3PAR drivers**
+- **Nimble / Alletra 6k drivers**
+- **RHOSP deployment guides (17 and 18)**
+- **Best Practices for HPE storage in OpenStack**
 
-## Community OpenStack
-
-### Alletra MP
-
-Alletra MP family [docs here](https://docs.openstack.org/cinder/latest/configuration/block-storage/drivers/hpe-3par-driver.html)
-
-## RHOSP
-
-### RHOSP 18
-
-Deployment guide [here](https://github.com/hpe-storage/hpe-openstack-docs/tree/main/hpe-alletra-mp-rhoso18)
-
-### RHOSP 17
-
-Deployment guide [here](https://github.com/hpe-storage/hpe-3par-cinder-rhosp17)
-
+These drivers allow seamless integration of HPE storage systems with OpenStack Block Storage.
