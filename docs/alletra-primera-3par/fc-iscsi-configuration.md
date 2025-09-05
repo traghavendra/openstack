@@ -1,10 +1,12 @@
 # FC / iSCSI Configuration
 
-## Fibre Channel
+__Fibre Channel__
+
 - Ensure proper zoning between hosts and array ports.
 - Mask volumes using WWNs.
 
-## iSCSI
+__iSCSI__
+
 - Configure multipathd.
 - Ensure initiators are registered on the array.
 - Example config snippet in `/etc/multipath.conf`:
@@ -15,6 +17,8 @@
   }
   ```
 
-## Notes
+__Notes__
+
 - Use CHAP for authentication in iSCSI.
 - Multipathing ensures resiliency.
+
