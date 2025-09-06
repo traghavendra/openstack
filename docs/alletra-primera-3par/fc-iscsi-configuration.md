@@ -9,8 +9,9 @@ __iSCSI__
 
 - Configure multipathd.
 - Ensure initiators are registered on the array.
-- Example config snippet in `/etc/multipath.conf`:
-  ```ini
+- Example config snippet in ```/etc/multipath.conf``` file:
+
+  ```
   defaults {
       user_friendly_names yes
       find_multipaths yes

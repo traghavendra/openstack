@@ -11,7 +11,7 @@ theme:
 nav:
   - Home: index.md
   - Cinder Driver:
-      - Alletra MP / Primera / 3PAR:
+      - Alletra MP / Alletra 9000 / Primera / 3PAR:
           - Overview: alletra-primera-3par/overview.md
           - System Requirements: alletra-primera-3par/system-requirements.md
           - Supported Operations: alletra-primera-3par/supported-operations.md
