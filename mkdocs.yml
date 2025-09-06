@@ -15,9 +15,9 @@ nav:
           - Overview: alletra-primera-3par/overview.md
           - System Requirements: alletra-primera-3par/system-requirements.md
           - Supported Operations: alletra-primera-3par/supported-operations.md
+          - Extra Specs & QoS: alletra-primera-3par/extra-specs-qos.md
           - Installation & Enabling: alletra-primera-3par/installation-enabling.md
           - FC / iSCSI Configuration: alletra-primera-3par/fc-iscsi-configuration.md
-          - Extra Specs & QoS: alletra-primera-3par/extra-specs-qos.md
           - Advanced Features:
               - NSP for FC Bootable Volumes: alletra-primera-3par/advanced-features/nsp-fc-bootable.md
               - Peer Persistence: alletra-primera-3par/advanced-features/peer-persistence.md
