@@ -2,8 +2,11 @@
 
 __Software Requirements__
 
+- HPE Alletra MP B10000 OS v10.5 or later.
+- HPE Alletra 9000 OS v9.5 or later.
+- HPE Primera OS v4.5 or later.
 - HPE 3PAR OS v3.2.1 or later.
-- Primera / Alletra 9000 / Alletra MP: python-3parclient ≥ 4.2.14.
+- python-3parclient ≥ 4.2.14.
 
 __Network Requirements__
 
