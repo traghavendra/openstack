@@ -49,7 +49,7 @@ QoS support for both HPE 3PAR drivers includes the ability to set the following 
 - latency
 - priority
 
-Note: The qos keys minBWS, minIOPS, latency and priority are deprecated and are no longer allowed for Alletra MP R5 (10.5.0 and above).
+Note: The QoS support is available only till 10.4.x. Its not supported on 10.5.x
 
 The qos keys above no longer require to be scoped but must be created and associated to a volume type. For information about how to set the key-value pairs and associate them with a volume type, run the following commands:
 
